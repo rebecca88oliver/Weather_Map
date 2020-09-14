@@ -1,1 +1,186 @@
 /* CSS STYLE SHEET */ 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header {
+    width: 100%;
+    height: 6rem;
+    background-image: url("./assets/weather_header.png");
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: dotted;
+    -webkit-text-stroke: 2px rgba(220, 226, 209, 0.418);
+    color: rgb(218, 224, 123);
+  }
+  
+  .tittle2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  
+  .title3 {
+    width: 50%;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #main_row {
+    width: 30%;
+    background-color: rgba(236, 234, 232, 0.281);
+  }
+  
+  #search_panel {
+    width: 95%;
+    height: 100%;
+    margin-left: 10px;
+  }
+  
+  #info_row {
+    width: 70%;
+    height: 95vh;
+    margin-left: 10px;
+  }
+  
+  #output_panel {
+    width: 100%;
+    height: 95vh;
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+    width: 100%;
+    margin-left: 1rem;
+  }
+  
+  h2 {
+    margin-bottom: 0;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+  
+  .info {
+    margin-left: 5px;
+  }
+  
+  .icon2 {
+    width: 3rem;
+    height: 3rem;;
+  }
+  
+  #input_panel {
+    display: flex;
+    height: 35px;
+  }
+  
+  .day_forecast {
+    border: 1px solid rgb(182, 176, 176);
+    height: 40%;
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  #item1 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    width: 60%;
+    display: flex;
+  }
+  
+  #item2 {
+    text-align: left;
+    margin-top: 0 auto;
+    font-size: 18px;
+    width: 60%;
+  }
+  
+  #item3 {
+    text-align: left;
+    margin-top: 0 auto;
+    font-size: 18px;
+    width: 60%;
+  }
+  
+  #item4 {
+    text-align: left;
+    margin-top: 0 auto;
+    font-size: 18px;
+    width: 60%;
+  }
+  
+  #item5 {
+    text-align: left;
+    margin-top: 0 auto;
+    font-size: 18px;
+    width: 60%;
+  }
+  
+  img {
+    height: 15%;
+    width: 15%;
+  }
+  
+  p {
+    align-items: center;
+  }
+  
+  .card_5 {
+    width: 18%;
+    background: #015be3;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+  }
+  
+  .five_forecast {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: left;
+  }
+  
+  ul {
+    width: 100%;
+    padding-left: 5px;
+    height: 82%;
+  }
+  
+  li {
+    border: 1px solid rgb(182, 176, 176);
+    font-size: 25px;
+    height: 3rem;
+    margin-top: 3px;
+    list-style-type: none;
+    background: white;
+    display: flex;
+    margin-top: 0;
+    padding-left: 5px;
+    padding-top: 8px;
+    cursor: pointer;
+  }

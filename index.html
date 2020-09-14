@@ -3,12 +3,14 @@
 
 <head>
 
+    
+
     <!--Sizes webpage accordingly based on viewport size-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
     <!-- Link to style sheet-->
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
 
 <!--Adds Boostrap 4-->
         <!-- Latest compiled and minified CSS -->
@@ -31,19 +33,62 @@
 
 </head>
 <body>
+    <body>
+        <div class="container-fluid header">
+            <p class="title">WEATHER DASHBOARD</p>
+        </div>
+     
+        <div class="container-fluid">
 
+            <div class="row" id="main_row">
 
+                <div class="col-lg-4" id=search_panel>
 
+                    <h3>Search By City:</h3>
 
+                    <div class="form-group bg-primary" id="input_panel"> 
+                        <input class="form-control" id="input" type="text" placeholder="City name..."/>
+                        <button type="button" class="btn btn-primary" id="btnInsert"> Submit <i class="fas fa-search-location fa-2x"></i></button>
+                    </div>
+                    
+                    <ul class="previous_cities" id="listOutPut"> </ul>
+                    
+                </div>
+            </div>
 
+            <div class="row" id="info_row">
+                <div class="col-lg-8" id="output_panel">
 
+                    <div class="day_forecast" id="current">
+                        <div class="card" id="item1"></div>
+                        <div class="card" id="item2"></div>
+                        <div class="card" id="item3"></div>
+                        <div class="card" id="item4"></div>
+                        <div class="card" id="item5"></div>
+                    </div>
+             
+                    <div class="tittle2">
+                        <h2>5-Day Forecast:</h2>
+                    </div>   
+                    
+                    <div class="five_forecast" id="extended"></div>
 
+                </div>
 
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"> </script>
+
+    </body>
 
 </body>
 <footer>
     <!-- Link to Javascript file, it is here so it loads last!-->
-    <script src="myscripts.js"></script>
+    <script src="script.js"></script>
 
 </footer>
 </html>
