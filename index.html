@@ -8,6 +8,7 @@
     <!--Sizes webpage accordingly based on viewport size-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Link to style sheet-->
     <link rel="stylesheet" href="style.css">
@@ -47,7 +48,7 @@
                     <h3>Search By City:</h3>
 
                     <div class="form-group bg-primary" id="input_panel"> 
-                        <input class="form-control" id="input" type="text" placeholder="City name..."/>
+                        <input class="inputsm" id="input" type="text" placeholder="Type your city here"/>
                         <button type="button" class="btn btn-primary" id="btnInsert"> Submit <i class="fas fa-search-location fa-2x"></i></button>
                     </div>
                     
@@ -57,17 +58,19 @@
             </div>
 
             <div class="row" id="info_row">
-                <div class="col-lg-8" id="output_panel">
+                <div class="col-lg-8 d-md-flex-row" id="output_panel">
 
                     <div class="day_forecast" id="current">
-                        <div class="card" id="item1"></div>
-                        <div class="card" id="item2"></div>
+                        <div class="card" id="item1">
+                        </div>
+                        <div class="card" id="item2">
+                        </div>
                         <div class="card" id="item3"></div>
                         <div class="card" id="item4"></div>
                         <div class="card" id="item5"></div>
                     </div>
              
-                    <div class="tittle2">
+                    <div class="title2">
                         <h2>5-Day Forecast:</h2>
                     </div>   
                     

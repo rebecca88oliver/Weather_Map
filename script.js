@@ -1,6 +1,8 @@
 
 $(document).ready(function () {
     
+
+
     var cityList = [];
     console.log(cityList);
     var key = "34b38e8cd2301818f06b043d2ecc5605";
@@ -16,7 +18,7 @@ $(document).ready(function () {
                 method: "GET",
             }).then(function (result) {
                 $("#item1").empty().append("<p class='title3'>" + result.name + " (" + todayDate + ")</p><img src='assets/01d@2x.png' /img>");
-                $("#item2").empty().append("<p>Temperature: " + result.main.temp + " &#176F</p>");
+                $("#item2").empty().append("<p class='d-flex'>Temperature: " + result.main.temp + " &#176F</p>");
                 $("#item3").empty().append("<p>Humidity: " + result.main.humidity + "%</p>");
                 $("#item4").empty().append("<p>Wind Speed: " + result.wind.speed + " MPH</p>");
                 $("#item5").empty().append("<p>UV index: </p>");
@@ -34,7 +36,7 @@ $(document).ready(function () {
     $(".btn").click(function (event) {
 
         var inputCity = $("#input").val();
-        $("#listOutPut").append("<li class='searchBttn'>" + inputCity + "</li>");
+        $("#listOutPut").append("<li class='searchBttn btn-info'>" + inputCity + "</li>");
         var queryURL_5Days = "https://api.openweathermap.org/data/2.5/forecast?q=" + inputCity + "&appid=" + key + "&units=imperial";
         var queryURL_UV = "https://api.openweathermap.org/data/2.5/uvi?q=" + inputCity + "&appid=" + key + "&units=imperial";
 
