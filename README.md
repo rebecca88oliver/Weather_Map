@@ -18,6 +18,5 @@ Click here to use the weather map:
 
 
 // Screenshot 
-<img src="weather-dashboard.jpg" alt="screenshot of weather map site">
-
+![screenshot](assets/weather-dashboard.png)
 
