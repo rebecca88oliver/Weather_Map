@@ -3,8 +3,7 @@ A simple site to check the weather
 
 
 Click here to use the weather map: 
-<a href="https://rebecca88oliver.github.io/Weather_Map/
-">Weather Map</a>
+<a href="https://rebecca88oliver.github.io/Weather_Map/">Weather Map</a>
 
 // Instructions
 
@@ -19,6 +18,6 @@ Click here to use the weather map:
 
 
 // Screenshot 
-<img src="weather.jpg" alt="screenshot of weather map site">
+<img src="weather-dashboard.jpg" alt="screenshot of weather map site">
 
 
