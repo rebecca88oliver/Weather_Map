@@ -8,6 +8,10 @@
     background: -webkit-linear-gradient(-45deg, #AC40CE 0%, #1C6EA4 50%, #1EC5C2 100%);
   }
   
+.card {
+  background-color: transparent;
+}
+
   .header {
     width: 100%;
     height: 6rem;
@@ -98,10 +102,10 @@
   
   .day_forecast {
     border: 1px solid rgb(182, 176, 176);
-    height: 40%;
     margin-left: 15px;
     text-align: left;
     background-color: transparent;
+    flex-direction: column;
   }
   
   #item1 {

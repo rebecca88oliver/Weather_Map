@@ -10,9 +10,6 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Link to style sheet-->
-    <link rel="stylesheet" href="style.css">
-
 <!--Adds Boostrap 4-->
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -27,6 +24,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <!-- End boostrap 4 links-->
 
+
+
+    <!-- Link to style sheet-->
+    <link rel="stylesheet" href="style.css">
+
+
 <!-- NOTE: javascript linked in footer for faster loading-->
 
     <title>What's the weather?</title>
@@ -39,11 +42,13 @@
             <p class="title">WEATHER DASHBOARD</p>
         </div>
      
+
+
         <div class="container-fluid">
 
             <div class="row" id="main_row">
 
-                <div class="col-lg-4" id=search_panel>
+                <div class="col" id=search_panel>
 
                     <h3>Search By City:</h3>
 
@@ -56,41 +61,44 @@
                     
                 </div>
             </div>
+            
+                <div class="container-fluid">
 
-            <div class="row" id="info_row">
-                <div class="col-lg-8 d-md-flex-row" id="output_panel">
+                    <div class="row" id="info_row">
+                        <div class="col" id="output_panel">
 
-                    <div class="day_forecast" id="current">
-                        <div class="card" id="item1">
-                        </div>
-                        <div class="card" id="item2">
-                        </div>
-                        <div class="card" id="item3"></div>
-                        <div class="card" id="item4"></div>
-                        <div class="card" id="item5"></div>
-                    </div>
-             
-                    <div class="title2">
-                        <h2>5-Day Forecast:</h2>
-                    </div>   
+                            <div class="day_forecast container-fluid" id="current">
+                                <div class="card" id="item1">
+                                </div>
+                                <div class="card" id="item2">
+                                </div>
+                                <div class="card" id="item3"></div>
+                                <div class="card" id="item4"></div>
+                                <div class="card" id="item5"></div>
+                            </div>
                     
-                    <div class="five_forecast" id="extended"></div>
+                            <div class="row title2">
+                                <h2>5-Day Forecast:</h2>
+                            </div>   
+                            
+                            <div class="five_forecast" id="extended"></div>
 
-                </div>
+                        </div>
 
-            </div>
+                    </div>
+                    </div> <!-- end container fluid-->
+
 
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="script.js"> </script>
 
     </body>
 
 </body>
 <footer>
-    <!-- Link to Javascript file, it is here so it loads last!-->
+    <!-- Link to Javascript file-->
     <script src="script.js"></script>
 
 </footer>

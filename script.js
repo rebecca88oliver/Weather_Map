@@ -59,7 +59,7 @@ $(document).ready(function () {
 
                     var newCard = $("<div>");
 
-                    newCard.addClass("card_5 forecast");
+                    newCard.addClass("card_5 forecast  align-items-end");
                     newCard.append("<h3>" + displayDate + "</h3>");
 
                     if (res.list[i].main.temp <= 58) {
