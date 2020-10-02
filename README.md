@@ -12,7 +12,7 @@
     * [GitHub Info](#Questions) 
     
     ## Installation
-    No installation necessary, visit <a href="https://rebecca88oliver.github.io/Weather_Map/">Weather Map</a> to use the Weather Map.
+    No installation necessary, use this link: <a href="https://rebecca88oliver.github.io/Weather_Map/"> Weather Map </a> to use the Weather Map.
     
     ## Usage
     This website can be used to check the weather of any location.
